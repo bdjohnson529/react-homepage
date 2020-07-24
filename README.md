@@ -8,3 +8,10 @@ To use react-spring, add the react-spring CDN to to `index.html`.
       crossorigin="anonymous">
 ```
 
+
+
+## Credit
+
+| asset | source |
+| -- | -- |
+| cloud.svg | https://upload.wikimedia.org/wikipedia/commons/9/95/Cartoon_cloud.svg |
