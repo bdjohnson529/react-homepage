@@ -1,16 +1,37 @@
-# React-Spring
+# React Homepage
 
-To use react-spring, add the react-spring CDN to to `index.html`.
+This project demonstrates a homepage using [parallax scrolling](https://www.react-spring.io/docs/props/parallax) powered by [react-spring](https://www.react-spring.io/).
+
+## Requirements
+This is a React app which requires [Node.js](https://nodejs.org/en/) to run. You can verify Node installation on the command line.
 
 ```
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
-      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
-      crossorigin="anonymous">
+node -v
+```
+
+## Usage
+
+### Serve Locally
+On the command line, navigate to the lowest level of the repository. The following commands will serve the app on the local network:
+```
+npm install
+npm start
+```
+
+### Deploy to Heroku
+To deploy in Heroku, use the [Heroku buildpack](https://github.com/mars/create-react-app-buildpack). Change `mymapviz` to an appropriate title. The following code will deploy the React app to the endpoint https://myhomepage.herokuapp.com/.
+```
+heroku create myhomepage --buildpack mars/create-react-app
+git push heroku master
+heroku open
 ```
 
 
 
 ## Credit
+Setting up this repository was made possible by the great community of programmers who have posted their solutions on the web.
+- [React-Spring Examples](https://github.com/react-spring/react-spring-examples/)
+
 
 | asset | source |
 | -- | -- |
